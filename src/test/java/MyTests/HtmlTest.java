@@ -1,4 +1,4 @@
-package org.example;
+package MyTests;
 
 import org.example.Main;
 import org.junit.jupiter.api.Test;

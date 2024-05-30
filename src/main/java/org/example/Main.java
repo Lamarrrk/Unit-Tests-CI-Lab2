@@ -58,7 +58,7 @@ public class Main {
                         inPreformatted = true;
                     }
                 } else if (!inPreformatted && !line.trim().isEmpty()) {
-                    String convertedLine = convertMarkdownToAnsi(line);
+                    String convertedLine = convertMarkdownToAnsi(line, false);
                     content.append(convertedLine);
                 } else if (inPreformatted) {
                     content.append(line).append("\n");
@@ -109,7 +109,10 @@ public class Main {
         return markdown.replaceAll("`(.+?)`", "\u001B[7m$1\u001B[27m");
     }
 
-    public static String convertMarkdownToAnsi(String markdown) {
+    public static String convertMarkdownToAnsi(String markdown, boolean inPreformatted) {
+        if (inPreformatted) {
+            return markdown;
+        }
         markdown = convertBoldAndItalicToAnsi(markdown);
         markdown = convertMonospacedToAnsi(markdown);
         return markdown;
