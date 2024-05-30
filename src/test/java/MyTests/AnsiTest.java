@@ -17,7 +17,7 @@ public class AnsiTest {
     @Test
     public void testConvertToAnsi_ItalicText() {
         String markdownText = "_This is italic text_";
-        String expectedAnsiText = "\u001B[3mThis is italic text";
+        String expectedAnsiText = "\u001B[3mThis is italic text\u001B[23m";
         assertEquals(expectedAnsiText, Main.convertMarkdownToAnsi(markdownText, false  ));
     }
 }
