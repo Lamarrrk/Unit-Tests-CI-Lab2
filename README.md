@@ -55,4 +55,9 @@ To run unit tests, you can use this command:
 
 Here you can follow the link to see revert commit: [https://github.com/Lamarrrk/Unit-Tests-CI-Lab2/commit/ae36b888ab45e3895d7e2040ac04cff6d96604f1](https://github.com/Lamarrrk/Unit-Tests-CI-Lab2/commit/ae36b888ab45e3895d7e2040ac04cff6d96604f1)
 
-And here you can follow the link to see unit test fail: [https://github.com/Lamarrrk/Unit-Tests-CI-Lab2/actions/runs/9308238895](https://github.com/Lamarrrk/Unit-Tests-CI-Lab2/actions/runs/9308238895)
+And here you can follow the link to see unit test fail: [https://github.com/Lamarrrk/Unit-Tests-CI-Lab2/commit/e16b44dcd7ce7559fc78427d72f8b8bce61be239](https://github.com/Lamarrrk/Unit-Tests-CI-Lab2/commit/e16b44dcd7ce7559fc78427d72f8b8bce61be239)
+
+
+# Висновок без води
+
+Мені допоміг один юніт тест для html - була помилка в italic. Тому так, я вважаю unit-тести корисними. 
