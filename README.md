@@ -45,7 +45,7 @@ For converting Markdown to Ansi into file, you can use this command:
 java Main.java exampleIn.txt exampleOut.ansi --format ansi
 ```
 
-To use unit tests, you can use this command:
+To run unit tests, you can use this command:
 
 ```
 ./gradlew test
@@ -54,3 +54,5 @@ To use unit tests, you can use this command:
 # Thank you for using this application!
 
 Here you can follow the link to see revert commit: [https://github.com/Lamarrrk/Unit-Tests-CI-Lab2/commit/ae36b888ab45e3895d7e2040ac04cff6d96604f1](https://github.com/Lamarrrk/Unit-Tests-CI-Lab2/commit/ae36b888ab45e3895d7e2040ac04cff6d96604f1)
+
+And here you can follow the link to see unit test fail: [https://github.com/Lamarrrk/Unit-Tests-CI-Lab2/actions/runs/9308238895](https://github.com/Lamarrrk/Unit-Tests-CI-Lab2/actions/runs/9308238895)
